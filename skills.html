@@ -1,103 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Thulani Khoza</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="C:/Users/FrancisZungu/Desktop/Umuzi Work/New Portfolio/fontawesome/js/all.js"></script>
-  </head>
-  <body>
-    <!--header-->
-    <header>
-      <nav>
-        <div class="nav-container">
-          <img src="images/logo.png" alt="Logo">
-          <div class="btn">
-            <div class="bar">
-
-            </div>
-            <div class="bar">
-
-            </div>
-            <div class="bar">
-
-            </div>
-
-          </div>
-
-        </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-
-        </ul>
-      </nav>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>    
+          <nav class="nav">
+            <div class="nav-container">
+                <img src="images/logo.png" alt="Logo">
+                <div class="nav-toggle">
+                  <div class="bar">
       
+                  </div>
+                  <div class="bar">
+      
+                  </div>
+                  <div class="bar">
+      
+                  </div>
+      
+                </div>
+      
+              </div>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link ">Home</a></li>
+                <li class="nav__item nav__link-active"><a href="skills.html" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="portfolio.html" class="nav__link ">Portfolio</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link ">About</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link ">Contact</a></li>
+            </ul>
+          </nav>
+
     </header>
-    <!--end-->
 
-
-
-    <!--Skills-->
-    <section class="skills">
-      <div class="skills-center">
-        <article class="skill">
-          <div class="skills-icon">
-            <i class="fab fa-html5"></i>
-          </div>
-
-          <div class="skill-text">
-            <h3>HTML3</h3>
-            <p>Proficient GJvjhbdrgbsd,mfku kjklskfbmbgiliskjkfbk lblkgsilulkukurg kjbkjbl hjsjuk ul bkjfbk kljbdfgbd lfbg kl</p>
-          </div>
-        </article>
-
-
-          <article class="skill">
-            <div class="skills-icon">
-
-              <i class="fab fa-css3-alt"></i>
-
-
-            </div>
-
-            <div class="skill-text">
-              <h3>CSS3</h3>
-              <p>Proficient vnsdfv hkfjdbjfk bfdb dfkjbkjdfbkldf bdfkljbdkfjbk bfkjdbkljdf bdfkjbdlfkjbg dfkbgkldfjbg bfkldbglkdf </p>
-            </div>
-          </article>
-
-
-
-          <article class="skill">
-            <div class="skills-icon">
-
-              <i class="fab fa-js-square"></i>
-
-            </div>
-
-            <div class="skill-text">
-              <h3>JavaScript</h3>
-              <p>Proficient kdjfkjsbdfkvbsdfnbkdsfbv kfvjbsdfvjbs kjsjdfbvkjdfv kjjfskdvb kjfbvk fbvkdfbvb dfkubkdjkfsbvsfv kudfbvkjsdfv bdfkvsdfvj</p>
-            </div>
-          </article>
-
-
-
-        </article>
-      </div>
+    <!--Introduction-->
+    <section class="intro" id="skills">
+        <h1 class="section_title section__title--intro" >
+            Hi, I am <strong>Thulani Khoza</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Front-end Developer
+        </p>
+        <img src="images/72673234_2384133658566692_6281070116243243008_n.jpg" class="intro__img" alt="My photo">
     </section>
 
+    <!--Skills-->
+    <section class="my-skills">
+        <h2 class="section_title section__title--skills">My Skills</h2>
+   
+        <div class="skills">
+     <!--Database Skills-->
+            <div class="skill">
+                <h3 class="skill-header">Database</h3>
+                <ul class="skills-items">
+                    <li>MySQL/SQLite/PostgreSQL</li>
+                    <li>MongoDB</li>
+                </ul> 
+            </div>
+    <!--end-->
 
+    <!--Front-end Skills-->
+            <div class="skill">
+                <h3 class="skill-header">Front-end</h3>
+                <ul class="skills-items">
+                    <li>HTML5 & CSS3</li>
+                    <li>jQuery</li>
+                    <li>Javascript</li>
+                   <li>ReactJS</li>
+                </ul>
+                
+            </div>
+    <!--end-->
+
+    <!--Backend Skills-->
+            <div class="skill">
+                <h3 class="skill-header">Back-end</h3>
+                <ul class="skills-items">
+                    <li>ASP.NET C#</li>
+                    <li>Nodejs</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+    <!--end-->
+
+    <!--Backend Skills-->
+    <div class="skill">
+        <h3 class="skill-header">Soft Skills</h3>
+        <ul class="skills-items">
+            <li>Human Centered Design</li>
+        </ul>
+    </div>
+<!--end-->
+        </div>
+        <a href="https://github.com/Nhlakanipho12" class="work-btn">My work</a>
+    </section>
+
+<!--footer-->
+<footer>
+    <!-- <div class="footer-icons">
+  
+  
+        <a href="#"><i class="fab fa-github"></i> </a>
+        <a href="#"><i class="fab fa-linkedin"></i> </a>
+        <a href="#"><i class="fab fa-codepen"></i> </a>
+        <a href="#"><i class="fab fa-twitter"></i> </a>
+  
+    </div> -->
+    <p>Copyright&copy;Acrux Web Solutions.All rights reserved</p>
+    <div id="footer">
+      <p>
+        Design by <b class="txt-grey">Thulani Khoza</b>  2019
+      </p>
+    </div>
+  </footer>
+  <!--End-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.12.0/d3.min.js">
     </script>
-    <script src="script.js"></script>
-
-
-
-  </body>
+    <script src="script/script.js"></script>
+    
+</body>
 </html>

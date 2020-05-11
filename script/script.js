@@ -1,9 +1,9 @@
-var btn = document.getElementsByClassName('btn')[0];
+var btn = document.getElementsByClassName('nav-toggle')[0];
 
 let isDisplayed = false;
 
 btn.onclick = function (e) {
-  let nav = document.getElementsByTagName('nav')[0];
+  let nav = document.getElementsByClassName('nav')[0];
   let ul = nav.childNodes[3];
 
   if (!isDisplayed) {
