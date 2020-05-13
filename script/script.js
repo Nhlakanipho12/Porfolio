@@ -1,5 +1,4 @@
 var btn = document.getElementsByClassName('nav-toggle')[0];
-
 let isDisplayed = false;
 
 btn.onclick = function (e) {
