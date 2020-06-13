@@ -171,7 +171,16 @@ h3{
     .banner-center img{
       display: none;
     }
+
+    .banner-icons a{
+      display: inline-block;
+      font-size: 15px;
+      padding: 2px 5px;
+      margin: 0 5px;
+    }
   }
+
+  
 
 
 
